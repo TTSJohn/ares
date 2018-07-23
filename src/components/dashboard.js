@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Blog from './blog';
 import { Grid, Row, Col, Image, Table, Well } from 'react-bootstrap';
 import '../css/dashboard.css'
 
@@ -56,6 +57,7 @@ class dashboard extends Component {
             </Col>
 					</Row>
 				</div>
+        <Blog />
 			</Grid>
       
 		);
