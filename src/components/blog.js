@@ -100,6 +100,8 @@ class Blog extends Component {
         </div>
         <div>
           <button className="btn btn-success add-button" onClick={this.addPost.bind(this, null)}>Add</button>
+       
+          
         </div>
       </div>
     );

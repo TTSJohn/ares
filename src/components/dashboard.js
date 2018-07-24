@@ -44,9 +44,9 @@ class dashboard extends Component {
 							</Table>
 						</Col>
             <Col xs={12} sm={4}>
-              <div class="card">
-                <div class="card-header">Your Challenges</div>
-                  <div class="card-body">Current Challengers
+              <div className="card">
+                <div className="card-header">Your Challenges</div>
+                  <div className="card-body">Current Challengers
                     <ul>
                       <li>Jerald</li>
                       <li>Fred</li>

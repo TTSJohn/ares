@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import indexPage from './components/indexPage';
 import dashboard from './components/dashboard';
 import Blog from './components/blog';
 import Post from './components/post';
+import firebase from 'firebase/app';
+import 'firebase/database';
+import './App.css';
 
 class App extends Component {
   render() {
