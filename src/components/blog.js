@@ -3,7 +3,6 @@ import '../css/blog.css';
 import Post from './post';
 import myFirebase from '../utility/MyFirebase';
 
-
 const GENERIC_POST_TITLE = "New Post Title", GENERIC_POST_BODY = "New Post Body";
 
 class Blog extends Component {
